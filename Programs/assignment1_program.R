@@ -40,7 +40,8 @@ library(car)
 # ----------------------------------------------------
 # Set working directory and define folder's structure
 # ----------------------------------------------------
-setwd("C:/STUDIA - materiały/RSM-MASTERS/COURSES/BLOCK 1/Advanced Statistics and Programming/Assignment 1")
+
+# setwd()
 
 dir <- "C:/STUDIA - materiały/RSM-MASTERS/COURSES/BLOCK 1/Advanced Statistics and Programming/Assignment 1/"
 
@@ -70,7 +71,7 @@ str(housingDataAll$OverallQual10)
 # Checking n/a per variable as linear regression model will not handle missing values;
 # One must investigate the missing values and whether decision to drop them is reasonable;
 # Otherwise, such variables cannot be considered for the model;
-# Investigate the pattern of n/a;
+# Consequently, there is a need to nvestigate the pattern of n/a;
 
 dfMissingValues <- as.data.frame(colSums(is.na(housingDataAll)))
 colnames(dfMissingValues) <- c("# Missing Values")
@@ -167,7 +168,7 @@ scatterBaseQualityLinear +
 ##           Data manipulation; dummy transformations           ##
 ##################################################################
 
-# Reflection on whether the OverallQual has to remain categorical or can be expressed numerically in the model
+# Reflection on whether the OverallQual has to remain categorical or can be expressed numerically in the model;
 #'What has to be done is the following:
 #'Prepare a temporary object for a regression analysis: Id, SalePrice, OverallQual, dummies for OverallQual
 #'Two regression models: SalePrice on OverallQual as discrete, SalePrice on OverallQual dummies
