@@ -1,3 +1,7 @@
+This project makes use of a Kaggle data set from a Housing Prices Competition. Description of the competition and data set can be found here:
+https://www.kaggle.com/competitions/home-data-for-ml-course/overview
+
+
 MSSubClass: Identifies the type of dwelling involved in the sale.	0	
 
         20	1-STORY 1946 & NEWER ALL STYLES
