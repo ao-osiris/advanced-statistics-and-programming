@@ -7,10 +7,11 @@ The following documents are uploaded and made available to the public:
 
 1. Analyzing US Housing Prices - OLS regression analyses on data set from Kaggle competition [available here](https://www.kaggle.com/competitions/home-data-for-ml-course/overview).
 2. Female Labor Force Participation and the Effects of Schooling on Wages - difference-in-difference and instrumental variable analyses on proprietory data sets using OLS.
-3. Time to Export, News Article Sharing, and Online Reviews - regression analyses that utilize maximum likelihood method and probit/logit in the following settings:
-  * panel data regression techniques (pooled, within-between, fixed- and random-effects), 
-  * count data modelling, 
-  * ordinal- and binary-choice response modelling.
+3. Time to Export, News Article Sharing, and Online Reviews - regression analyses (using World Bank API data, [Online News Popularity Data Set](https://archive.ics.uci.edu/ml/datasets/Online+News+Popularity) and proprietory Yelp data set) that utilize maximum likelihood method and probit and logit regressions in the following settings:
+
+     * panel data regression techniques (pooled, within-between, fixed- and random-effects), 
+     * count data modelling, 
+     * ordinal- and binary-choice response modelling.
 
 
 
